@@ -3,4 +3,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  justifyContent: 'center',
+  alignItems: 'center',
 }
