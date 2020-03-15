@@ -1,7 +1,6 @@
-#test {
+#demo {
+  width: 808px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  justifyContent: 'center',
-  alignItems: 'center',
 }
