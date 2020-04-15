@@ -1,0 +1,22 @@
+.content {
+  text-align: center
+}
+.iframe {
+  position: relative; 
+  top:-37px;
+}
+#right-iframe-text {
+  position: relative; 
+  left: 190px; 
+  top:-37px; 
+  text-align: center;
+}
+#left-iframe-text {
+  position: relative;
+  right: 190px;
+  text-align: center;
+}
+#iframe {
+  width:350px;
+  height:350px;
+}
