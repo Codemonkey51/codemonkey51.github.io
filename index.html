@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://kit.fontawesome.com/6bfbd8fad0.js" crossorigin="anonymous" type="text/javascript"></script>
     <link rel="shortcut icon" href="https://storage.googleapis.com/replit/images/1586749228943_1c6ac08a5e9aab3043b5c72c2f71d039.png" type="image/x—icon" \>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -9,27 +10,56 @@
     <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" type="text/css" />
   <body>
     <div class="content">
-      
-    <div class="w3-bar w3-blue">
-      <h1 style="color: white">Welcome to my GitHub page! </h1>
-    </div>
-    <div class="w3-bar w3-yellow">
-      <h6>Some of my projects</h6>
-    </div>
-    <div class="w3-bar w3-brown" id="iframes">
-      <div style="overflow: hidden;">
-        <p id="left-iframe-text">Pi guess game:</p>
-        <p id="right-iframe-text">Hangman:</p>
+      <div class="w3-bar w3-yellow section">
+        <a name="projects"><h6>Some projects:</h6></a>
       </div>
-      <div class="iframe">
-        <iframe src="https://pi-guess-game.codemonkey51.repl.run" id="iframe"></iframe> <iframe src="https://hangman.codemonkey51.repl.run" id="iframe"></iframe>
+      <div class="w3-bar w3-brown" id="iframes">
+        <div> <!-- style="overflow: hidden;"> -->
+          <p id="left-iframe-text">Pi guess game:</p>
+          <p id="right-iframe-text">Hangman:</p>
+        </div>
+        <div class="iframe" style="height:469px">
+          <iframe src="https://pi-guess-game.codemonkey51.repl.run" id="iframe"></iframe> <iframe src="https://hangman.codemonkey51.repl.run" id="iframe"></iframe>
+        </div>
+      </div>
+      <div class="content accounts">
+        <div class="w3-bar w3-yellow section" id="accountbar">
+          <a name="accounts"><h6>Accounts:</h6></a>
+        </div>
+        <div class="w3-bar w3-brown" id="accountcontent">
+          <h3><a href="https://github.com/Codemonkey51"><i class="fab fa-github"></i> GitHub</a>  ‍ ‍  ‍  ‍  ‍   ‍  <a href="https://repl.it/@Codemonkey51"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Repl.it_logo.svg" height="32px"/>repl.it</a></h3>
+        </div>
+      </div>
+      <div class="content about">
+        <div class="w3-bar w3-yellow section" id="accountbar">
+          <a name="about"><h6>About:</h6></a>
+        </div>
+        <div class="w3-bar w3-brown" id="accountcontent">
+          <h3>Codemonkey51:</h3>
+          <h5>Codemonkey51 is an anonymous programmer who likes: python 2.7, python 3, html css and js, and nodejs. Codemonkey51 programs on repl.it and has some repositories on github. Codemonkey51 has made projects ranging from a python multi-step math engine to a Hangman game that can use any word allowed in scrabble. Not much else is known about Codemonkey51.</h5>
+        </div>
       </div>
     </div>
-      <p></p>
-      
-    </div>
-    
-    
+    <footer>
+      <div class="w3-bar w3-black content" style="height:100px;">
+        <p>
+          accounts:
+        </p>
+        <p><a href="https://github.com/Codemonkey51"><i class="fab fa-github"></i> GitHub</a>  ‍ ‍  ‍  ‍  ‍   ‍  <a href="https://repl.it/@Codemonkey51"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Repl.it_logo.svg" height="23px"/>repl.it</a></p>
+      </div>
+    </footer>
+    <nav class="content">
+      <div class="w3-bar w3-blue">
+        <h1 style="color: white">Welcome to my Repl page! </h1>
+      </div>
+      <div class="w3-bar w3-red" style="height:40px">
+        <p style="position: relative; top: -5px; word-spacing: 3em;">
+          <a href="#projects">projects</a>
+          <a href="#accounts">accounts</a>
+          <a href="#about">about</a>
+        </p>
+      </div>
+    </nav>
     <script src="script.js"></script>
   </body>
 </html>
