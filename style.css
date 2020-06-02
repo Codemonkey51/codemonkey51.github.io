@@ -1,0 +1,50 @@
+.content {
+  text-align: center
+}
+footer {
+  position: relative;
+  top: -20px;
+  clip: 240px auto 300px auto; 
+}
+html {
+  background-color:black;
+}
+#accountbar {
+  position: relative;
+  top: -20px;
+}
+#accountcontent {
+  position: relative;
+  top: -20px;
+}
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.iframe {
+  position: relative; 
+  top:77px;
+}
+.section {
+  position: relative; 
+  top: 114px;
+}
+#right-iframe-text {
+  position: relative; 
+  left: 190px; 
+  top: 78px; 
+  text-align: center;
+}
+#left-iframe-text {
+  position: relative;
+  right: 190px;
+  top: 114px;
+  text-align: center;
+}
+#iframe {
+  width:350px;
+  height:350px;
+}
